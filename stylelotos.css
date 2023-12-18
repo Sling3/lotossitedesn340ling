@@ -1,0 +1,632 @@
+/* GLOBAL STYLING 
+
+COLOURS: 
+Deep Pink #F1444C
+Deep Pink Tint #F8A1A4
+Emerald Green #004E35
+Emerald Green Tint #4C8271
+White #ffffff
+
+*/
+*{
+  font-family: playfair display;
+}
+
+h1 {
+  color:#F1444C ;
+  font-size: 70px;
+  font-weight: 700
+}
+
+h4{
+  font-size: 16px;
+}
+
+h5{
+  font-size: 12px;
+}
+
+
+/*BOX MODEL FIX*/
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* H O V E R S T A T E S */
+
+.CTA:hover {
+	text-decoration: none;
+	background-color:#4C8271 ;
+}
+
+.button:hover {
+  background-color: #4C8271;
+}
+
+.signup:hover{
+  background-color:#F8A1A4 ;
+}
+
+
+/*MICRO CLEARFIX*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+
+/* N A V  S T Y L E */
+
+header {
+  background-color:#F1444C ;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; 
+}
+.socialsNav{
+  display: flex;
+  margin-right: 100px;
+  margin-bottom: -20px;
+}
+
+
+/* this is for the . on the far left so logo is centered */ 
+header p{ 
+  color: #F1444C ;
+}
+.fillerNav{
+  margin-left: 100px;
+  margin-bottom: -20px;
+}
+
+
+
+
+
+
+/* H E R O  S T Y L E */
+
+#main p{
+  color:#F8A1A4;
+  font-size: 23px;
+  margin-top: 25px;
+}
+
+
+#main{
+  background-image: url("images/heroBackground.png");
+  background-size: cover; /*Kevin Powell*/
+  background-position: right;
+  padding-bottom: 100px;
+  margin-top: 8em;
+  margin-bottom: 100px;
+}
+
+
+.CTA{
+  background-color:#004E35;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 25px;
+  padding-top:10px ;
+  padding-right:170px ;
+  padding-bottom:10px ;
+  padding-left:170px ;
+  display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+/* V E N D O R   S T Y L E */
+
+.vendorTitle{
+  text-align: center;
+}
+
+.vendorTitle h2{
+   font-size: 50px;
+   color:#F1444C ;
+   font-weight: 700;
+}
+
+.vendorTitle p{
+  color:#F8A1A4 ;
+}
+
+/*Style of the vendor box*/
+.vendorBox{
+  font-weight: 700;
+  text-align: center;
+  background-color:#F1444C ;
+  color: white;
+  width: 25%;
+  margin-right: 13px;
+  margin-bottom: 20px;
+  padding-top:20px ;
+  padding-right:40px ;
+  padding-bottom:17px ;
+  padding-left:40px ;
+}
+
+/*This is to centre the pink vendor boxes*/ 
+#vendorLayout{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 260px
+}
+
+
+
+
+
+
+
+/* P E R F U M E  C O L  S T Y L E */
+
+/*"Our Perfume Collection" title style*/
+.perfumeColTitle{
+  text-align: center;
+  font-size: 40px;
+  color:#F1444C;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+  .lotosEaterCTA{
+
+  }
+
+/*https://www.youtube.com/watch?v=kHVFQmqImIQ
+
+Style of the external link buttons for perfume section
+*/
+.button{
+  font-size: 9px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap:6px;
+  background-color:#004E35;
+  color: white;
+  text-decoration: none;
+}
+
+/*to get buttons to be horizontal*/ 
+.buttonflex{
+  display: flex;
+  gap:6px;
+}
+
+/*to get perfume beside text/buttons*/
+.perfumeFlexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+
+}
+/* This style is applied to all perfume bottle sections */
+.Lotos-Eater{
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-right: 100px;
+  margin-right: 30px;
+  display: flex;
+
+}
+
+.bottle {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+
+.Lotos-Eater h3{
+  color:#F1444C ;
+  font-weight: 700; 
+}
+
+.Lotos-Eater p{
+  font-size: 12px;
+  color:#F8A1A4;
+}
+
+.Lotos-Eater h5{
+  color:#004E35 ;
+}
+
+/*puts padding on the bottom of the perfume sections*/
+.SectionSpace{
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+/* N E W S L E T T E R  S T Y L E */
+
+/*style of newsletter green box + text in it*/
+.news{
+  color: white;
+  background-color:#004E35 ;
+  padding-top:65px;
+  padding-bottom: 65px;
+}
+
+.newslayout{
+  display: flex;
+}
+
+.news h2{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news p{
+  font-size: 14px;
+  max-width: 54%;
+  padding-left: 380px;
+  padding-right: 40px;
+}
+
+
+/*style of email text + email box*/
+.email{
+  max-width: 50%;
+  padding-left: 20px;
+}
+
+.email h4{
+  font-weight: 700;
+}
+
+.email h5{
+  color: lightgrey;
+  background-color: white;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-right: 150px;
+  margin-bottom: 20px;
+}
+
+
+/*style of newsletter signup button*/
+.signup
+{
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color:#F1444C ;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+/* C O N T A C T  U S */
+
+/*style for "Contact Us"*/
+.contactUsTitle{
+  color: #F1444C;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 60px;
+
+}
+/*style for phone, email, socials*/
+.flexContact{
+  color: #F1444C;
+  display: flex;
+  gap:3rem;
+  margin-left: 530px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.flexContact h3{
+   font-weight: 700;
+}
+
+/*centers phone, email, socials*/
+.socialCenter{
+  text-align: center;
+}
+
+.Lotos-Eater{
+  margin-bottom: 20px;
+}
+
+.Lotos-Eater p{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/* F O O T E R  S T Y L E */
+#footerbackground{
+  background-color: #F1444C;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 190px;
+  padding-left: 100px;
+  gap: 65rem;
+}
+
+
+/*this is for the "...." between social icons for space*/ 
+#footerbackground p{
+  color: #F1444C ;
+}
+
+.footerSocials{
+  display:flex;
+}
+
+
+/*style of "copyright 2020-2023"*/
+.footerCopyright{
+  color: white;
+  background-color:#F1444C ;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.footerCopyright h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+/*M E D I A  Q U E R I E S  M O B I L E 
+For Iphone XR 414 x 896
+*/
+
+@media only screen and (max-width: 414px){
+
+
+
+/* 
+  M E D I A  Q U E R I E S:
+  N A V */
+
+.socialsNav{
+  display: none;
+}
+
+.fillerNav{
+  display: none;
+}
+
+header{
+  justify-content: center;
+  margin-bottom: -100px;
+}
+
+
+
+
+/* M E D I A  Q U E R I E S
+   H E R O */
+
+#main {
+  background-image: none;
+  margin-bottom: 0px;
+  background-image: url(images/iphongbg.jpg);
+  padding-top: 80px;
+
+}
+
+#main h1{
+  font-size: 40px;
+  margin-top: -50px;
+  padding-left: 15px;
+}
+
+#main p{
+  font-size: 13px;
+  margin-top: 5px;
+  margin-right: 130px;
+  padding-left: 15px;
+}
+
+.CTA{ 
+  border-radius: 5px;
+  margin-top: 0px;
+  padding-top:10px ;
+  margin-left: 15px;
+  padding-right:70px ;
+  padding-bottom:10px ;
+  padding-left:70px ;
+
+}
+
+
+
+
+/* M E D I A  Q U E R I E S 
+   V E N D O R S*/
+
+.vendorTitle h2{
+   font-size: 30px;
+}
+
+#vendorLayout{
+  margin-left: -15px;
+}
+
+.vendorBox{
+  max-height: 60px;
+  width: fit-content;
+  margin-right: -5px;
+  margin-left: 11px;
+  
+}
+
+.vendorBox h4{
+  align-items: flex-start;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-right: 15px;
+
+
+}
+
+.vendorBox h5{
+  align-items: flex-start;
+  font-size: 10px;
+  padding-bottom: 50px;
+
+}
+
+
+
+
+
+/* M E D I A  Q U E R I E S
+   P E R F U M E */
+
+
+
+.perfumeFlexRow{
+  display: block; /*Cancels display:flex in css and makes perfume stack vertically*/
+}
+
+.buttonflex{
+  margin-bottom:90px;
+}
+
+.SectionSpace{
+  padding-bottom: 1px;
+  max-width: 90%;  
+
+}
+
+.button{
+  font-size: 12px;
+
+}
+
+
+
+
+
+
+/* M E D I A  Q U E R I E S
+   N E W S L E T T E R*/
+
+.news{
+  padding-top:none;
+  padding-bottom: none;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.news h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news p{
+  font-size: 14px;
+  padding-left: 60px;
+  padding-right: none;
+  max-width: 100%;
+}
+
+.newslayout{
+  display: block;
+}
+  
+.email{
+  max-width: 85%;
+  padding-left: 60px;
+}
+
+.signup
+{
+  font-size: 15px;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* M E D I A  Q U E R I E S
+   C O N T A C T  U S */
+
+.flexContact{
+  gap:2rem;
+  margin-left: 43px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+
+.contactUsTitle{
+  font-size: 30px;
+  margin-top: 40px;
+
+}
+
+
+
+
+/* M E D I A  Q U E R I E S
+   F O O T E R*/
+.footerSocials{
+  display:none
+}
+
+#footerbackground a{
+  margin-left: 60px;
+}
+
+#footerbackground{
+  padding-bottom: 100px;
+}
+
+.footerCopyright h5{
+  padding-top: 10px;
+  margin-left: 10px;
+}
